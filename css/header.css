@@ -1,0 +1,38 @@
+/* Header and nav bar */
+header {
+    font-family: Arial, sans-serif;
+    background: var(--main-color);
+    box-shadow: 0px 0px 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+} 
+
+.logo {
+    cursor: pointer;
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block ;
+    padding: 0px 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-links li a:hover {
+    color: var(--second-text-color);
+}

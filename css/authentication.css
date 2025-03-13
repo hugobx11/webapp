@@ -1,0 +1,66 @@
+/* Styles for Login, Forgot password and Register Pages */
+.authentication {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 40px;
+    border: 5px solid var(--text-color);
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--text-color);
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    min-width: 250px;
+}
+
+.input-box input {
+    border: 2px solid var(--text-color);
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: auto;
+}
+
+.input-box input:focus {
+    outline: 0;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.wrapper button {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100%;
+    height: 50px;
+    background: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    color: var(--main-color);
+    cursor: pointer;
+    text-decoration: none;
+}
