@@ -1,0 +1,17 @@
+<header>
+    <!-- Logo with a link to the homepage -->
+    {% comment %} <a href="index.html" class="logo">
+        <img class="logo" src={% static "images/logoprojco.png" %} alt="logo">
+    </a> {% endcomment %}
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href={% url 'myapp:index' %}>Home</a></li>
+            {% comment %} <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="machinery.html">Machinery</a></li>
+            <li><a href="faults.html">Fault Reports</a></li> {% endcomment %}
+            <li><a href={% url 'myapp:login' %}>Login</a></li>
+        </ul>
+    </nav>
+</header>
